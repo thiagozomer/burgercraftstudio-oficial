@@ -1,0 +1,53 @@
+.cardapio-item {
+  border: solid;
+  height: 400px;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: #a26d26;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.cardapio-imagem img {
+  height: 180px;
+  width: 300px;
+  margin: auto;
+  flex-shrink: 0;
+}
+
+.cardapio-item h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #a26d26;
+}
+.cardapio-item p {
+  font-size: 15px;
+  text-align: center;
+  color: #a26d26;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.cardapio-item button {
+  height: 40px;
+  width: 180px;
+  margin: auto;
+  flex-shrink: 0;
+  border-style: solid;
+  border-color: #a26d26;
+  border-radius: 6px;
+  background-color: #1e1e1e;
+  color: #a26d26;
+}
+
+.cardapio-item button a {
+  text-decoration: none;
+  color: #a26d26;
+  background-color: #1e1e1e00;
+}
+.cardapio-item button :hover {
+  color: white;
+}

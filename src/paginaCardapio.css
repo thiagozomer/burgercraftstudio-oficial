@@ -1,0 +1,10 @@
+.cardapio-lista {
+  min-height: 900px;
+  padding: 40px 40px 60px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+}

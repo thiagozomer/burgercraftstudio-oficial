@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+#inicio {
+  min-height: 700px;
+
+  background-image: url(https://i.ibb.co/PZ2XxDsC/imagem-header.png);
+  background-size: cover;
+  background-position: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  padding-right: 100px;
+}
+
+#inicio h2 {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f5e9d7;
+  font-size: 70px;
+  font-family: 'Londrina Shadow', sans-serif;
+}
+
+#inicio h1 {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: #a26d26;
+  font-size: 130px;
+  font-family: 'Londrina Shadow', sans-serif;
+}
+
+#inicio button {
+  background-color: #f5e9d700;
+  border-color: #f5e9d700;
+}
+
+#inicio .btn-pedir {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 35px;
+
+  border-radius: 25px;
+  background-color: #a26d26;
+  color: #f5e9d7;
+
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+#inicio .btn-pedir:hover {
+  color: black;
+}
+
+#cardapio {
+  min-height: 700px;
+  width: auto;
+}
+
+#sobre {
+  display: flex;
+  min-height: 650px;
+  padding-top: 40px;
+  gap: 40px;
+}
+
+#sobre .pt1 {
+  min-height: 500px;
+  padding: 30px 20px 40px;
+  margin-top: 90px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #a26d26;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#sobre .pt1 h1 {
+  margin-top: 30px;
+  font-size: 60px;
+  color: #a26d26;
+  font-family: 'Londrina Shadow', sans-serif;
+}
+
+#sobre .pt1 p {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  font-size: 20px;
+  color: #ffe6bf;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#contato {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  grid-template-areas:
+    'info texto'
+    'info form';
+  column-gap: 60px;
+  row-gap: 30px;
+  align-items: start;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 60px;
+  box-sizing: border-box;
+}
+
+#contato .pt1 {
+  grid-area: info;
+  padding-top: 40px;
+}
+
+#contato .ctt2 {
+  grid-area: texto;
+  text-align: center;
+}
+
+#contato .ctt2 h2 {
+  font-size: 50px;
+  color: white;
+}
+#contato .ctt2 h2 b {
+  color: #fabd34;
+}
+
+#contato .ctt2 h3 {
+  font-size: 26px;
+}
+
+#contato .ctt2 p {
+  font-size: 20px;
+}
+
+#contato .ctt3 {
+  grid-area: form;
+  min-height: 280px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #fabd34;
+}

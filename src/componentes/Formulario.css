@@ -1,0 +1,35 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formpt1 {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.formpt1 input {
+  flex: 1;
+  min-width: 0;
+  margin-top: 10px;
+  height: 24px;
+}
+
+.formpt2 textarea {
+  width: 90%;
+  height: 80px;
+  text-align: center;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.formulario button {
+  width: 200px;
+  margin: auto;
+}

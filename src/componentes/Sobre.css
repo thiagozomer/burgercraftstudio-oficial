@@ -1,0 +1,25 @@
+.ctt1 {
+  display: flex;
+  border-style: solid;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+}
+
+.ctt1 img {
+  height: 40px;
+  width: 40px;
+  padding-top: 12px;
+}
+
+.ctt1 h2 {
+  padding-left: 10px;
+  color: #fabd34;
+  font-size: 20px;
+}
+
+.ctt1 p {
+  padding-left: 10px;
+  color: white;
+  font-size: 14px;
+}
